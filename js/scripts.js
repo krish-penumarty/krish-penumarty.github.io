@@ -1,0 +1,23 @@
+//Toggles the visibility of the menu
+function toggleMenu(){
+
+    var nav = $('#navbar-main');
+
+    if(!nav.hasClass("open")){
+        nav.addClass("open");
+    } else {
+        nav.removeClass("open");
+    }
+}
+
+//Toggles the color of the logo when mouseover
+function toggleLogo(color){
+
+    var logo = document.getElementById("logo");
+
+    if(color == 'red'){
+        logo.src = "/images/logored.png";
+    } else {
+        logo.src = "/images/logo.png";
+    }
+}

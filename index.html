@@ -18,8 +18,8 @@
 
 
 <body>
+    <!-- Navigation Bar -->
     <div id="navbar-main">
-
       <div id="logo-main">
         <a href="#home" onmouseover="toggleLogo('red')" onmouseout="toggleLogo('white')">
           <img id="logo" src="/images/logo.png">
@@ -34,19 +34,28 @@
         <div class="menu">
           <ul>
             <li class="introduction">
-              <a href="#introduction" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});toggleMenu();">Introduction</a>
+              <a href="#introduction">Introduction</a>
             </li>
             <li class="resume">
-              <a href="#resume" onclick="$(window).scrollTo($('#resume'), 400, {offset: -50});toggleMenu();">Resume</a>
+              <a href="#resume">Resume</a>
             </li>
             <li class="contact">
-              <a href="#contact" onclick="$(window).scrollTo($('#contact'), 400, {offset: -50});toggleMenu();">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-
     </div>
+
+    <!-- Section 1: Krish Penumarty -->
+    <section id="home">
+      <div id="background-image-container">
+        <picture class="bg_picture">
+          <source srcset="images/waves.jpg" type="image/jpg">
+          <img src="images/waves.jpg" alt="Mavericks surf competition">
+        </picture>
+      </div>
+    </section>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/scale.fix.js"></script>

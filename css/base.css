@@ -58,16 +58,6 @@ a:hover {
   color: #FFF;
 }
 
-.bg_picture {
-  position: relative;
-  max-width: 100%;
-  height: 540px;
-  width: auto;
-  height: auto;
-  margin-bottom: -100px;
-  z-index: -100;
-}
-
 ul {
   list-style: none;
   text-decoration: none;
@@ -92,8 +82,74 @@ nav ul li a {
   color: #FFF;
 }
 
-/* Mobile */
-@media only screen and (max-width: 767px){
+.profile {
+  position: absolute;
+  width: 500px;
+  top: calc(50% - 300px);
+  left: calc(50% - 250px);
+  text-align: center;
+}
+
+.profile {
+  position: absolute;
+  width: 500px;
+  top: calc(50% - 300px);
+  left: calc(50% - 250px);
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: auto;
+}
+
+.profile .subheading {
+  font-size: 25px;
+  color: #FFF;
+}
+
+.lnr-chevron-down {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  margin-left: -40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 401px) {
+  .bg_image {
+    max-width: 100%;
+    height: 50vh;
+    background: url("http://loremflickr.com/800/450") no-repeat center center;
+    background-size: cover;
+  }
+  .profile h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: auto;
+    margin-top:11%;
+  }
+  .profile .subheading {
+      font-size: 18px;
+      color: #FFF;
+  }
+}
+
+/* Tablet (portrait) ----------- */
+@media only screen and (max-width : 768px) {
+  .bg_image {
+    max-width: 100%;
+    height: 50vh;
+    background: url("http://loremflickr.com/1600/900") no-repeat center center;
+    background-size: cover;
+  }
 
   #mobile-nav {
     display: block;
@@ -115,5 +171,58 @@ nav ul li a {
     margin-bottom: 20px;
     text-align: right;
     margin-right: 3%;
+  }
+
+  .lnr-chevron-down {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 39%;
+    left: 53%;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .profile h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: auto;
+    margin-top:11%;
+  }
+  .profile .subheading {
+      font-size: 18px;
+      color: #FFF;
+  }
+}
+
+/* Tablet (landscape) ----------- */
+@media only screen and (min-width : 769px) {
+  .bg_image {
+    max-width: 100%;
+    height: 75vh;
+    background: url("http://loremflickr.com/1600/900") no-repeat center center;
+    background-size: cover;
+  }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+.bg_image {
+    max-width: 100%;
+    height: 75vh;
+    background: url("http://loremflickr.com/1600/900") no-repeat center center;
+    background-size: cover;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+.bg_image {
+    max-width: 100%;
+    height: 75vh;
+    background: url("http://loremflickr.com/1600/900") no-repeat center center;
+    background-size: cover;
   }
 }

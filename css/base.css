@@ -8,6 +8,7 @@ body {
 
 .grid {
   max-width: 900px !important;
+  margin: 0 auto;
 }
 
 #navbar-main {
@@ -115,10 +116,16 @@ nav ul li a {
   font-size: 100px;
   position: absolute;
   top: 54%;
-  left: 50%;
+  left: 49%;
   margin-left: -40px;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 6%;
+  text-transform: uppercase;
 }
 
 .bg_image {
@@ -235,6 +242,14 @@ nav ul li a {
   .profile .subheading {
       font-size: 18px;
       color: #FFF;
+  }
+}
+
+/* Side margins for content for smaller screens */
+@media only screen and (max-width: 980px) {
+  .grid {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 

@@ -121,7 +121,14 @@ nav ul li a {
   cursor: pointer;
 }
 
-/* Smartphones (landscape) ----------- */
+.bg_image {
+    max-width: 100%;
+    height: 75vh;
+    background: url("http://loremflickr.com/1600/900") no-repeat center center;
+    background-size: cover;
+  }
+
+/* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 401px) {
   .bg_image {
     max-width: 100%;
@@ -129,6 +136,29 @@ nav ul li a {
     background: url("http://loremflickr.com/800/450") no-repeat center center;
     background-size: cover;
   }
+
+  #mobile-nav {
+    display: block;
+  }
+
+  nav {
+    opacity: 0;
+    position: relative;
+    height: 145px;
+    top: 3px;
+    width: 100%;
+    padding-top: 4px;
+    background-color: rgba(17, 17, 17, 1);
+    pointer-events: none;
+  }
+
+  nav ul li{
+    float: none;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 3%;
+  }
+
   .profile h1 {
     font-size: 30px;
     font-weight: 600;
@@ -136,18 +166,31 @@ nav ul li a {
     margin-bottom: auto;
     margin-top:11%;
   }
+
   .profile .subheading {
       font-size: 18px;
       color: #FFF;
   }
+
+  .lnr-chevron-down {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 39%;
+    left: 53%;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
 }
 
 /* Tablet (portrait) ----------- */
-@media only screen and (max-width : 768px) {
+/*@media only screen and (min-width: 402px) and (max-width : 768px) {
   .bg_image {
     max-width: 100%;
     height: 50vh;
-    background: url("http://loremflickr.com/1600/900") no-repeat center center;
+    background: url("http://loremflickr.com/800/450") no-repeat center center;
     background-size: cover;
   }
 
@@ -194,18 +237,7 @@ nav ul li a {
       font-size: 18px;
       color: #FFF;
   }
-}
-
-/* Tablet (landscape) ----------- */
-@media only screen and (min-width : 769px) {
-  .bg_image {
-    max-width: 100%;
-    height: 75vh;
-    background: url("http://loremflickr.com/1600/900") no-repeat center center;
-    background-size: cover;
-  }
-}
-
+}*/
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {

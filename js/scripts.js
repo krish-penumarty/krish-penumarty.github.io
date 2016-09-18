@@ -1,3 +1,17 @@
+$( document ).ready(function() {
+    $( ".logo" ).mouseover(function() {
+        toggleLogo('red');
+    });
+
+    $( ".logo" ).mouseout(function() {
+      toggleLogo('white');
+    });
+
+    $( ".nav-menu" ).click(function() {
+      toggleMenu();
+    });
+});
+
 //Toggles the visibility of the menu
 function toggleMenu(){
 

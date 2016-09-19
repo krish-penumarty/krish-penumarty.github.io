@@ -20,16 +20,16 @@ $( document ).ready(function() {
     $(function(){
         $(".animate-arrow").click(function(){
            window.location.href="#introduction";
-
-           /* need to stop the form sending of the form
-
-            UPDATE as comment: This may not be exactly correct syntax
-            for stopping a form , look up preventing form submission */
-
            e.preventDefault();
            e.stopPropagation();
         });
     });
+
+    $(function(){
+        $(".menu ul li").click(function(){
+            toggleMenu();
+        });
+    })
 });
 
 //Toggles the visibility of the menu

@@ -194,11 +194,13 @@ nav ul li a {
   list-style: disc;
   font-size: 17px;
   margin-left: 22%;
+  padding: 5px 0px;
 }
 
 .experience li {
   list-style: disc;
   font-size: 17px;
+  padding: 5px 0px;
 }
 
 .align-center {

@@ -245,6 +245,10 @@ h5 {
     margin-right: 3%;
   }
 
+  .profile {
+    top: calc(54% - 300px);
+  }
+
   .profile h1 {
     font-size: 30px;
     font-weight: 600;

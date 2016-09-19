@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5.53846154" y="5.53846154" width="24.9230769" height="24.9230769"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24.9230769" height="24.9230769" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo">
+            <use id="Rectangle" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" transform="translate(18.000000, 18.000000) rotate(45.000000) translate(-18.000000, -18.000000) " xlink:href="#path-1"></use>
+            <text id="K" font-family="LucidaGrande, Lucida Grande" font-size="18" font-weight="normal" letter-spacing="0.93599999" fill="#FFFFFF">
+                <tspan x="12.6565117" y="24">K</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

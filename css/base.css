@@ -47,6 +47,10 @@ h5 {
     margin-bottom: -2%;
 }
 
+img {
+    max-width: 100%;
+}
+
 .grid {
     max-width: 900px !important;
     margin: 0 auto;
@@ -185,7 +189,11 @@ h5 {
 
 .project-image {
     height: 200px;
-    max-width: 100%;
+}
+
+.project-link {
+    color: #2196f3;
+    text-decoration: none;
 }
 
 #navbar-main {
@@ -274,8 +282,8 @@ h5 {
     }
 
     .project-image {
-        height: 35vh;
-        width: 100vh;
+        height: 30vh;
+        width: 100%;
     }
 
     #mobile-nav {
@@ -336,8 +344,8 @@ h5 {
     }
 
     .project-image {
-        height: 15vh;
-        width: 100vh;
+        width: 100%;
+        height: 45vh;
     }
 
     #mobile-nav {
@@ -400,8 +408,7 @@ h5 {
     }
 
     .project-image {
-        height: 35vh;
-        width: 100vh;
+        height: 70vh;
     }
 
     #mobile-nav {
@@ -422,5 +429,9 @@ h5 {
     .profile {
         top: calc(33% - 300px);
         left: calc(52% - 250px);
+    }
+
+    .project-image {
+        height: 15vh;
     }
 }

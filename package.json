@@ -1,0 +1,23 @@
+{
+  "name": "krish-penumarty.github.io",
+  "version": "1.0.0",
+  "description": "Personal website of Krish Penumarty",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krish-penumarty/krish-penumarty.github.io.git"
+  },
+  "author": "Krish Penumarty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krish-penumarty/krish-penumarty.github.io/issues"
+  },
+  "homepage": "https://github.com/krish-penumarty/krish-penumarty.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-imageoptim": "^1.4.1"
+  }
+}

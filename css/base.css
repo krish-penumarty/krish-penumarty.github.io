@@ -253,7 +253,9 @@ img {
     }
 
     .profile {
+        width: 350px;
         top: calc(51% - 300px);
+        left: calc(83% - 300px);
     }
 
     .profile h1 {
@@ -288,6 +290,12 @@ img {
 
     #mobile-nav {
         display: block;
+    }
+}
+@media only screen and (max-width : 320px) {
+    .profile{
+        left: calc(90% - 300px);
+        top: calc(60% - 300px);
     }
 }
 

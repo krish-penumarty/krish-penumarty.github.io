@@ -257,3 +257,25 @@
   .thank-you { left: 7.5%; }
   .error { left: 7.5% }
 }
+
+@media only screen and (max-width: 400px) {
+  .hero-btn { margin-top: 115px; }
+
+  .btn-full:link,
+  .btn-full:visited {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .btn-ghost:link,
+  .btn-ghost:visited {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .btn-ghost:hover,
+  .btn-ghost:active {
+    margin-left: 0;
+  }
+
+}

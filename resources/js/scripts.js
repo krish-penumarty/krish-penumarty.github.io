@@ -51,6 +51,7 @@ $(document).ready(function() {
           $('html, body').animate({
             scrollTop: (target.offset().top)-50 //Added some space between scroll of header and section start
           }, 1000);
+          $('.js--main-nav').slideToggle(200);
           return false;
         }
       }

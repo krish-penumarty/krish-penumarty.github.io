@@ -629,3 +629,9 @@ footer p {
 
 .js--wp-1.animated,
 .js--wp-2.animated { opacity: 1; }
+
+/* Other */
+/* Remove Autofill color */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}

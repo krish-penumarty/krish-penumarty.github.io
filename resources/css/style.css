@@ -38,7 +38,7 @@ body { /* Support for Safari (< 5.1), Chrome (< 10) */ /* Support for Firefox (<
 
 section { padding: 65px 0; }
 
-.box { padding: 1%; }
+.box { padding: 0.5%; }
 
 /* Headings */
 h1,

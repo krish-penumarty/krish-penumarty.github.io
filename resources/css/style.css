@@ -553,6 +553,11 @@ cite img {
   padding: 40px 0;
 }
 
+.form-box form {
+  position: relative;
+  z-index: 100;
+}
+
 .map-box ul li{
   list-style: none;
   display: inline-block;

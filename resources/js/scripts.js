@@ -9,6 +9,11 @@ $(document).ready(function() {
     toggleMainLogo("white");
   });
 
+  /* On click Main Logo */
+  $("#main-logo").click(function(ele) {
+    checkLocation(ele);
+  });
+
   /* Hover Alt Logo */
   $("#alt-logo").mouseover(function() {
     toggleAltLogo("red");
@@ -16,6 +21,11 @@ $(document).ready(function() {
 
   $("#alt-logo").mouseout(function() {
     toggleAltLogo("black");
+  });
+
+  /* On click Alt Logo */
+  $("#alt-logo").click(function(ele) {
+    checkLocation(ele);
   });
 
   /* Typed.js Plugin for Home page header */
@@ -112,9 +122,9 @@ function toggleMainLogo(color){
     var main_logo = document.getElementById("main-logo");
 
     if(color == 'red'){
-      // logo.src = "/images/krish-logo-2196F3.svg";
+      main_logo.src = "resources/images/logo-red.svg";
     } else {
-      // logo.src = "/images/krish-logo.svg";
+      main_logo.src = "resources/images/logo-white.svg";
     }
 }
 
@@ -123,10 +133,15 @@ function toggleAltLogo(color){
     var alt_logo = document.getElementById("alt-logo");
 
     if(color == 'red'){
-      // logo.src = "/images/krish-logo-2196F3.svg";
+      alt_logo.src = "resources/images/logo-red.svg";
     } else {
-      // logo.src = "/images/krish-logo.svg";
+      alt_logo.src = "resources/images/logo-black.svg";
     }
+}
+
+/* Function: Refresh back to home page or scroll back to top of page. */
+function checkLocation(ele) {
+  console.log(ele);
 }
 
 /* Google Maps API for Contact Form */

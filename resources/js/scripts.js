@@ -141,7 +141,9 @@ function toggleAltLogo(color){
 
 /* Function: Refresh back to home page or scroll back to top of page. */
 function checkLocation(ele) {
-  console.log(ele);
+  if(ele.currentTarget.baseURI != "http://krishpenumarty.com/") {
+    window.location.href = 'http://krishpenumarty.com/'
+  }
 }
 
 /* Google Maps API for Contact Form */
